@@ -1,0 +1,20 @@
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+==PROF== Connected to process 557 (/build/m2)
+==PROF== Profiling "prefn_marker_kernel()" - 1: 0%....50%....100% - 73 passes
+==PROF== Profiling "conv_forward_kernel" - 2: 0%....50%....100% - 74 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 3: 0%....50%....100% - 73 passes
+Layer Time: 10578 ms
+Op Time: 9988.53 ms
+Conv-GPU==
+==PROF== Profiling "prefn_marker_kernel()" - 4: 0%....50%....100% - 73 passes
+==PROF== Profiling "conv_forward_kernel" - 5: 0%....50%....100% - 74 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 6: 0%....50%....100% - 73 passes
+Layer Time: 29188 ms
+Op Time: 28763 ms
+
+Test Accuracy: 0.8714
+root@LAPTOP-2OTLBFM8:/home/ece408/ECE408_2# rai --queue rai_amd64_exclusive -p ./Project/
+Dynamic Rate Limit: 3m0s

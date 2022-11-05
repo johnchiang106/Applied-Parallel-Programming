@@ -1,0 +1,53 @@
+http://s3.amazonaws.com/files.rai-project.com/userdata/build-636577b6ea7d9801ca150ad7.tar.gz
+
+
+Q2
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+Layer Time: 61.7699 ms
+Op Time: 1.44136 ms
+Conv-GPU==
+Layer Time: 50.7312 ms
+Op Time: 5.5354 ms
+
+Test Accuracy: 0.886
+
+
+Q3
+Test batch size: 100
+Op Time: 0.158903 ms
+Op Time: 0.581653 ms
+
+Test Accuracy: 0.86
+
+real    0m1.162s
+
+
+
+
+Test batch size: 1000
+Op Time: 6.57549 ms
+Op Time: 21.2646 ms
+
+Test Accuracy: 0.886
+
+real    0m10.388s
+
+
+
+
+Test batch size: 10000
+Op Time: 14.338 ms
+Op Time: 61.5178 ms
+
+Test Accuracy: 0.8714
+
+real    1m43.960s
+
+
+
+
+
+Q6
+Kernels are executed on the GPU, API Calls are executed on the CPU.

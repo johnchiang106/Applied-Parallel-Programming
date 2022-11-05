@@ -1,0 +1,35 @@
+Test batch size: 100
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+Layer Time: 7.31929 ms
+Op Time: 0.176298 ms
+Conv-GPU==
+Layer Time: 6.33452 ms
+Op Time: 0.649609 ms
+
+Test Accuracy: 0.86
+
+Test batch size: 1000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+Layer Time: 61.7699 ms
+Op Time: 1.44136 ms
+Conv-GPU==
+Layer Time: 50.7312 ms
+Op Time: 5.5354 ms
+
+Test Accuracy: 0.886
+
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+Layer Time: 630.846 ms
+Op Time: 14.2272 ms
+Conv-GPU==
+Layer Time: 507.472 ms
+Op Time: 60.9716 ms
+
+Test Accuracy: 0.8714
